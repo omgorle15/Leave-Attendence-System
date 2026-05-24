@@ -20,6 +20,7 @@
   <a href="/admin/dashboard"><i class="fas fa-tachometer-alt"></i> Dashboard</a>
   <a href="/admin/employees"><i class="fas fa-users"></i> Employees</a>
   <a href="/admin/leaves" class="active"><i class="fas fa-calendar-check"></i> Leave Requests</a>
+    <a href="/admin/attendance"><i class="fas fa-clipboard-list"></i> Attendance</a>
   <a href="/logout"><i class="fas fa-sign-out-alt"></i> Logout</a>
 </div>
 <div class="main">

@@ -115,4 +115,11 @@ public class AdminController {
         ra.addFlashAttribute("success", "Leave rejected.");
         return "redirect:/admin/dashboard";
     }
+    
+    @GetMapping("/attendance")
+    public String attendance(Model model) {
+        model.addAttribute("attendances", attendanceService.getTodayAttendance());
+        model.addAttribute("employees",   employeeService.getAllEmployees());
+        return "admin/attendance";
+    }
 }
